@@ -1,0 +1,26 @@
+:root {
+    --bkg: #eee2d3;
+    --white: #FFFFFF;
+    --black: #000000;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+    font-size: 120%;
+}
+
+li {
+    list-style: circle;
+  }
+    
+  .light-theme {
+    --bg: var(--bkg);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html manifest="manifest.mf">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLOAN NFC</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="apple-touch-startup-image" src="slios.png">
+</head>
+<body class="light-theme">
+  <img src="Sloanlogo.png" width="300">
+    <h2>Product Label</h2>
+    
+  <Script type="text/javascript" src="app.js"></Script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+  <table>
+    <tbody>
+
+    <tr>
+    <script>
+      if (prodname != '') {
+        document.write('<td>product name:</td><td>')
+        document.write(prodname);
+      } 
+    </script>
+    </td>
+    </tr>
+
+    <tr>
+    <script>
+      if (prodtype != '') {
+        document.write('<td>product type:</td><td>')
+        document.write(prodtype);
+      } 
+    </script>
+    </td>
+    </tr>
+
+    <tr>
+    <script>
+      if (product != '') {
+        document.write('<td>product:</td><td>')
+        document.write(product);
+      } 
+    </script>
+    </td>
+    </tr>
+    
+    <tr>
+    <script>
+      if (prodid != '') {
+        document.write('<td>product id:</td><td>')
+        document.write(prodid);
+      } 
+    </script>
+    </td>
+    </tr>
+    
+    <tr>
+    <script>
+      if (prodserial != '') {
+        document.write('<td>serial #:</td><td>')
+        document.write(prodserial);
+      } 
+    </script>  
+    </td>
+    </tr>
+
+    </tbody>   
+  </table> 
+  
+  <h2>Product Links</h2>    
+  <ul>
+    <script>
+       if (install != '') 
+      {  
+        document.write('<li class="list"><a href="' + install + '">Installation Instructions</a><br><br></li>');
+      }
+    </script>
+    <script>
+       if (specify != '') 
+      {  
+        document.write('<li class="list"><a href="' + specify + '">Product Specifications</a><br><br></li>');
+      }
+    </script>
+    <script>
+      if (maintain != '') 
+     {  
+       document.write('<li class="list"><a href="' + maintain + '">Maitenance Guide</a><br><br></li>');
+     }
+   </script>
+  
+  </ul>
+</body>
+</html>
