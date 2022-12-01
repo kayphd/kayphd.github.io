@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html manifest="manifest.mf">
 <html lang="en">
 <head>
+  <link rel="manifest" href="/manifest.json">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SLOAN NFC</title>
   <link rel="stylesheet" href="main.css">
-  <link rel="apple-touch-startup-image" src="slios.png">
+  <link rel="apple-touch-startup-image" href="512.png">
 </head>
 <body class="light-theme">
-  <img src="Sloanlogo.png" width="300">
+  <img src="sloanw.png" width="300">
     <h2>Product Label</h2>
     
   <Script type="text/javascript" src="app.js"></Script>
@@ -94,5 +94,10 @@
    </script>
   
   </ul>
+  <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js', { scope: '/' });
+    }
+  </script>
 </body>
 </html>
