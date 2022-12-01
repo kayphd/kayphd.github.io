@@ -1,9 +1,0 @@
-CACHE MANIFEST
-#Version 0.5
-
-index.html
-app.js
-main.css
-Sloanlogo.png
-slios.png
-AddType text/cache-manifest .appcache
