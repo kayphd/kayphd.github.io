@@ -22,3 +22,4 @@ var prodserial = getUrlParameter('prodserial');
 var install = getUrlParameter('install');
 var specify = getUrlParameter('specify');
 var maintain = getUrlParameter('maintain');
+var video = getUrlParameter('video');

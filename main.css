@@ -1,14 +1,21 @@
 :root {
-    --blue: #226eef;
+    --blue: #1B4688;
     --white: #FFFFFF;
     --black: #000000;
+  }
+
+    table {
+      border: 4px solid;
+      border-radius: 25px;
+      padding: 10px;
+      width: 85%;
   }
 
   body {
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 li {
@@ -19,6 +26,11 @@ li {
     --bg: var(--white);
     --fontColor: var(--black);
   }
-
-
-
+  #rcorners {
+    border-radius: 25px;
+    background: var(--blue);
+    padding: 30px;
+    width: 80%;
+    text-align: center;
+    font-size: 140%;
+  }

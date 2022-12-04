@@ -10,12 +10,13 @@
   <link rel="apple-touch-startup-image" href="512.png">
 </head>
 <body class="light-theme">
-  <img src="sloanw.png" width="300">
+  <img id="rcorners" src="sloanw.png">
     <h2>Product Label</h2>
     
   <Script type="text/javascript" src="app.js"></Script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 
+ 
   <table>
     <tbody>
 
@@ -71,7 +72,9 @@
 
     </tbody>   
   </table> 
-  
+
+  <p  id="rcorners">Customer care: 1-800-982-5839</p>
+
   <h2>Product Links</h2>    
   <ul>
     <script>
@@ -92,7 +95,13 @@
        document.write('<li class="list"><a href="' + maintain + '">Maitenance Guide</a><br><br></li>');
      }
    </script>
-  
+    <script>
+      if (video != '') 
+     {  
+       document.write('<li class="list"><a href="' + video + '">Installation Video</a><br><br></li>');
+     }
+   </script>
+ 
   </ul>
   <script>
     if('serviceWorker' in navigator) {
