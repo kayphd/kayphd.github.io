@@ -14,12 +14,25 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
     return false;
 };
+// query string composes the product information on the nfc tag as follows: 
+// https://...index.html?product=..&prodname=..&prodid=..&cideo=https://... 
+
+//key descriptors listed below
+// product name
 var prodname = getUrlParameter('prodname');
+// product type
 var prodtype = getUrlParameter('prodtype');
+// product description
 var product = getUrlParameter('product');
+// product id
 var prodid = getUrlParameter('prodid');
+// product derial number
 var prodserial = getUrlParameter('prodserial');
+// install link must start with https://
 var install = getUrlParameter('install');
+// product specification link  must start with https://
 var specify = getUrlParameter('specify');
+// product maintenance guide link must start with https://
 var maintain = getUrlParameter('maintain');
+// installation video must start with https://
 var video = getUrlParameter('video');
