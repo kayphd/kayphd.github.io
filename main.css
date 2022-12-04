@@ -15,7 +15,7 @@
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 li {
@@ -32,5 +32,7 @@ li {
     padding: 30px;
     width: 80%;
     text-align: center;
-    font-size: 140%;
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--black)
   }
