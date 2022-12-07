@@ -8,12 +8,31 @@
   <title>SLOAN NFC</title>
   <link rel="stylesheet" href="main.css">
   <link rel="apple-touch-startup-image" href="512.png">
+  <script>
+  if(navigator.online){
+    if (pict != '') 
+   {  
+    document.getElementById("ppict").innerHTML = pict;
+   } else {
+    var pict = "valve.png";
+    document.getElementById("ppict").innerHTML = pict;
+   }
+  }
+  else {
+    var pict = "valve.png";
+    document.getElementById("ppict").innerHTML = pict;
+  }
+ </script>
+
 </head>
 <body class="light-theme">
   
   <img id="rcorners" src="sloanw.png">
-    <h2>Product Label</h2>
+  <img src="sloanw2.png">
     
+   
+  <h2>Product Detail</h2> 
+
   <Script type="text/javascript" src="app.js"></Script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
  
@@ -73,11 +92,12 @@
     </tbody>   
   </table> 
 
-  <p>Customer care: 1-800-982-5839</p>
+  <p>If you have any questions please call<br>
+  customer care: 1-800-982-5839</p>
+  prodname
   
-  <hr class="rounded">
 
-  <h2>Product Links</h2>    
+  <h2>Additional Links</h2>    
   <ul>
     <script>
        if (install != '') 

@@ -14,6 +14,14 @@ var getUrlParameter = function getUrlParameter(sParam) {
     }
     return false;
 };
+
+function resizeImg(img,  width) {
+    img.height = width;
+    img.width = width;
+}
+
+
+
 // query string composes the product information on the nfc tag as follows: 
 // https://...index.html?product=..&prodname=..&prodid=..&cideo=https://... 
 
