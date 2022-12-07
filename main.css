@@ -5,10 +5,20 @@
   }
 
     table {
-      padding: 20px;
+      padding: 2px;
       width: 100%;
   }
+  .right {
+    text-align: right;
+    margin-right: 5em;
+  }
+  
+  .left {
+    text-align: left;
+    margin-left: 5em;
+  }
 
+  }
   body {
     background: var(--bg);
     color: var(--fontColor);
@@ -32,3 +42,8 @@ li {
     align-self: auto;
   }
  
+
+.column {
+  float: left;
+  width: 50%;
+}

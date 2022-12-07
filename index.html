@@ -23,28 +23,31 @@
     }
  // display_image(pict,64);
   </script>
+       <script>
+        document.getElementById('pie').src=pict;
+      </script>
     
-   
-  <h2>Product Detail</h2> 
 
- 
+<div class="row">
+<div class="column">
+  <div>
   <table>
     <tbody>
 
     <tr>
     <script>
       if (prodname != '') {
-        document.write('<td>product name:</td><td>')
+        document.write('<td class="right">product name: </td><td class="left">')
         document.write(prodname);
       } 
-    </script>
+   </script>
     </td>
     </tr>
 
     <tr>
     <script>
       if (prodtype != '') {
-        document.write('<td>product type:</td><td>')
+        document.write('<td class="right">product type: </td><td class="left">')
         document.write(prodtype);
       } 
     </script>
@@ -54,7 +57,7 @@
     <tr>
     <script>
       if (product != '') {
-        document.write('<td>product:</td><td>')
+        document.write('<td class="right">product:  </td><td class="left">')
         document.write(product);
       } 
     </script>
@@ -64,7 +67,7 @@
     <tr>
     <script>
       if (prodid != '') {
-        document.write('<td>product id:</td><td>')
+        document.write('<td class="right">product id: </td><td class="left">')
         document.write(prodid);
       } 
     </script>
@@ -74,7 +77,7 @@
     <tr>
     <script>
       if (prodserial != '') {
-        document.write('<td>serial #:</td><td>')
+        document.write('<td class="right">serial #: </td><td class="left">')
         document.write(prodserial);
       } 
     </script>  
@@ -83,9 +86,13 @@
 
     </tbody>   
   </table> 
-  <script>
-     display_image(pict,128);
-  </script>
+  </div>
+</div>
+<div class="column">
+  <img src="" id="pie" width="50%">  
+</div>
+</div>
+
   <p>If you have any questions please call<br>
   customer care: 1-800-982-5839</p>
 
@@ -122,6 +129,9 @@
     if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { scope: '/' });
     }
+  </script>
+   <script>
+    document.getElementById('pie').src=pict;
   </script>
 </body>
 </html>
