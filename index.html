@@ -8,33 +8,25 @@
   <title>SLOAN NFC</title>
   <link rel="stylesheet" href="main.css">
   <link rel="apple-touch-startup-image" href="512.png">
-  <script>
-  if(navigator.online){
-    if (pict != '') 
-   {  
-    document.getElementById("ppict").innerHTML = pict;
-   } else {
-    var pict = "valve.png";
-    document.getElementById("ppict").innerHTML = pict;
-   }
-  }
-  else {
-    var pict = "valve.png";
-    document.getElementById("ppict").innerHTML = pict;
-  }
- </script>
+  <Script type="text/javascript" src="app.js"></Script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
 
+ 
 </head>
 <body class="light-theme">
   
   <img id="rcorners" src="sloanw.png">
-  <img src="sloanw2.png">
+  
+  <script>
+    if (pict=='') {
+    pict='royal.jpg';
+    }
+  display_image(pict,64);
+  </script>
     
    
   <h2>Product Detail</h2> 
 
-  <Script type="text/javascript" src="app.js"></Script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
  
   <table>
     <tbody>

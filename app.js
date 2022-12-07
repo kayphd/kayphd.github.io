@@ -15,11 +15,14 @@ var getUrlParameter = function getUrlParameter(sParam) {
     return false;
 };
 
-function resizeImg(img,  width) {
-    img.height = width;
-    img.width = width;
-}
 
+function display_image(src, width) {
+    var a = document.createElement("img");
+    a.src = src;
+    a.width = width;
+    a.height = width;
+    document.body.appendChild(a);
+}
 
 
 // query string composes the product information on the nfc tag as follows: 
@@ -44,3 +47,4 @@ var specify = getUrlParameter('specify');
 var maintain = getUrlParameter('maintain');
 // installation video must start with https://
 var video = getUrlParameter('video');
+var pict = getUrlParameter('pict');
