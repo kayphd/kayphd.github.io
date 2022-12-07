@@ -27,8 +27,8 @@ li {
   #rcorners {
    /* border-radius: 25px;*/
     background: var(--blue);
-    padding:5%;
-    width: 40%;
+   /* padding:5%;*/
+    width: 100%;
     align-self: auto;
   }
  
