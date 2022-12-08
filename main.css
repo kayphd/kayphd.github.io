@@ -3,6 +3,7 @@
     --white: #FFFFFF;
     --black: #000000;
   }
+  
 
     table {
       padding: 2px;
@@ -27,7 +28,8 @@
 }
 
 li {
-    list-style: circle;
+    list-style: "=>";
+    font-size: 120%;
   }
     
   .light-theme {
