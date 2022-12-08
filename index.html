@@ -11,76 +11,73 @@
   <Script type="text/javascript" src="app.js"></Script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 
- 
+    <script>
+      if(pict==false){
+        pict='royal.jpg'
+      }
+      document.getElementById('pie').src=pict;
+    </script>
+  
 </head>
 <body class="light-theme">
   
-  <img id="rcorners" src="sloanw.png">
-  
-  <script>
-    if (pict=='') {
-    pict='royal.jpg';
-    }
- // display_image(pict,64);
-  </script>
-       <script>
-        document.getElementById('pie').src=pict;
-      </script>
+  <img id="rcorners" src="sloanw.png" alt="SloanWorks">
     
-
+<div class="col-container">
 <div class="row">
 <div class="column">
   <div>
   <table>
     <tbody>
-
-    <tr>
+      <tr style="height:5px">
+        <script>
+          document.write('<td class="right"><b>Product:  </b></td><td class="left">');
+          if (product != '') {   
+            document.write('<p style="font-size:20px" >');
+            document.write(product);
+            document.write(' </p>');
+          } 
+        </script>
+        </td>
+        </tr>
+    
+    <tr style="height:1px">
     <script>
-      if (prodname != '') {
-        document.write('<td class="right"><b>Product: </b></td><td class="left"><p style="font-size:22px" >')
-        document.write(prodname);
-        document.write(' </p>');
+      document.write('<td class="right"><b>Description:  </b></td><td class="left">');
+      if (prodid != '') {
+        document.write('<p style="font-size:16px" >');
+        document.write(prodid);
+        document.write(' </p></td></tr><tr style="height:1px"><td></td><td class="left">');
       } 
    </script>
-    </td>
-    </tr>
-
-    <tr>
-    <script>
+  
+     <script>
       if (prodtype != '') {
-        document.write('<td class="right">product type: </td><td class="left">')
+        document.write('<p style="font-size:16px" >');
         document.write(prodtype);
+        document.write(' </p></td></tr><tr style="height:1px"><td></td><td class="left">');
       } 
     </script>
-    </td>
-    </tr>
 
-    <tr>
-    <script>
-      if (product != '') {
-        document.write('<td class="right">product:  </td><td class="left">')
-        document.write(product);
-      } 
-    </script>
-    </td>
-    </tr>
-    
-    <tr>
-    <script>
-      if (prodid != '') {
-        document.write('<td class="right">product id: </td><td class="left">')
-        document.write(prodid);
-      } 
-    </script>
-    </td>
-    </tr>
-    
-    <tr>
+     
     <script>
       if (prodserial != '') {
-        document.write('<td class="right">serial #: </td><td class="left">')
+        document.write('<p style="font-size:16px" >');
         document.write(prodserial);
+        document.write(' </p>');
       } 
+    </script>
+    </td>
+    </tr style="height:1px">
+    
+    <tr style="height:1px">
+    <script>
+       document.write('<td class="right"><b>Model:  </b></td><td class="left">');
+          if (model != '') {   
+            document.write('<p style="font-size:20px" >');
+            document.write(model);
+            document.write(' </p>');
+          } 
     </script>  
     </td>
     </tr>
@@ -90,7 +87,8 @@
   </div>
 </div>
 <div class="column">
-  <img src="" id="pie" width="90%">  
+  <img src="" id="pie" width="100%" alt="Flush Valve"><br>  
+</div>
 </div>
 </div>
 
@@ -125,6 +123,7 @@
    </script>
  
   </ul>
+
   <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js', { scope: '/' });
@@ -133,5 +132,6 @@
    <script>
     document.getElementById('pie').src=pict;
   </script>
+
 </body>
 </html>

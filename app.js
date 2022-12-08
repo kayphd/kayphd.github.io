@@ -30,12 +30,12 @@ function display_image(src, width) {
 
 //key descriptors listed below
 // product name
-var prodname = getUrlParameter('prodname');
+var product = getUrlParameter('product');
+// product id
+var model = getUrlParameter('model');
 // product type
 var prodtype = getUrlParameter('prodtype');
 // product description
-var product = getUrlParameter('product');
-// product id
 var prodid = getUrlParameter('prodid');
 // product derial number
 var prodserial = getUrlParameter('prodserial');
@@ -47,4 +47,5 @@ var specify = getUrlParameter('specify');
 var maintain = getUrlParameter('maintain');
 // installation video must start with https://
 var video = getUrlParameter('video');
+//product picture must start with https://...jpg or png
 var pict = getUrlParameter('pict');

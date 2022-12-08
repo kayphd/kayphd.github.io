@@ -3,7 +3,14 @@
     --white: #FFFFFF;
     --black: #000000;
   }
-  
+  .col-container {
+    display: table;
+    width: 100%;
+  }
+  .col {
+    display: table-cell;
+    padding: 16px;
+  }
 
     table {
       padding: 2px;
@@ -30,6 +37,7 @@
 li {
     list-style: "=>";
     font-size: 120%;
+    margin-left: 15%;
   }
     
   .light-theme {
