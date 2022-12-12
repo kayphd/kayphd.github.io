@@ -80,3 +80,10 @@ li {
   float: left;
   width: 50%;
 }
+.container {
+  width: 31%;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
