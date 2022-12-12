@@ -3,26 +3,37 @@
     --white: #FFFFFF;
     --black: #000000;
   }
-  .col-container {
+
+  * {
+    box-sizing: border-box;
+  }
+  /*.col-container {
     display: table;
     width: 100%;
-  }
-  /*.col {
-    display: table-cell;
+  }*/
+  .column {
+    /*display: table-cell;*/
+    float: left;
     padding: 10px;
   }*/
-  .first-column {
-    display: table-cell;
-    width: 63%;
-    padding: 2%;
-    float: left;
+  .first {
+    /*display: table-cell;*/
+    width: 65%;
+    /*padding: 2%;
+    float: left;*/
 }
 
-.second-column {
-    display: table-cell;
-    width: 33%;
-    padding: 2%;
-    float: right;
+.second {
+    /*display: table-cell;*/
+    width: 35%;
+    /*padding: 2%;
+    float: right;*/
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
     table {
