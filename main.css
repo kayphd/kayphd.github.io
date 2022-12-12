@@ -4,9 +4,9 @@
     --black: #000000;
   }
 
-  /* {
+  * {
     box-sizing: border-box;
-  }*/
+  }
   .col-container {
     display: table;
     width: 100%;
