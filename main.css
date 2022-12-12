@@ -17,13 +17,13 @@
     }
   .first {
     /*display: table-cell;*/
-    width: 65%;
+    width: 63%;
     float: left;
   }
 
   .second {
     /*display: table-cell;*/
-    width: 35%;
+    width: 33%;
     float: right;
   }
 /* Clear floats after the columns */
