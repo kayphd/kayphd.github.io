@@ -25,7 +25,7 @@
     /*display: table-cell;*/
     width: 33%;
     padding: 2%;
-    float: right;
+    float: left;
   }
 /* Clear floats after the columns */
 .row:after {
