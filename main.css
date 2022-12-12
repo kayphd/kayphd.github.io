@@ -12,13 +12,13 @@
     padding: 10px;
   }
   .first-column {
-    width: 66%;
+    width: 61%;
     padding: 0 10px 0 0;
     float: left;
 }
 
 .second-column {
-    width: 33%;
+    width: 28%;
     padding: 0 10px 0 0;
     float: right;
 }
