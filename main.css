@@ -12,9 +12,8 @@
     width: 100%;
   }
 
-  .column {
-    
-  }
+ /* .column {
+    }*/
   .first {
     /*display: table-cell;*/
     width: 61%;
@@ -75,12 +74,3 @@ li {
     align-self: auto;
   }
  
-
-.column {
-  float: left;
-  width: 50%;
-}
-img {
-  width: 100%;
-  object-fit: cover;
-}
