@@ -14,12 +14,12 @@
 
   .column {
     /*display: table-cell;*/
-    float: left;
+    
     padding: 2%;
   }*/
   .first {
     /*display: table-cell;*/
-    width: 43%;
+    width: 63%;
     /*padding: 2%;*/
     float: left;
   }
