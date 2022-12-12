@@ -9,8 +9,19 @@
   }
   .col {
     display: table-cell;
-    padding: 16px;
+    padding: 10px;
   }
+  .first-column {
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.second-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right;
+}
 
     table {
       padding: 2px;
