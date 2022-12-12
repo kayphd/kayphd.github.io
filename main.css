@@ -13,9 +13,7 @@
   }
 
   .column {
-    display: table-cell;
-    
-    padding: 2%;
+    display: table-cell; 
   }*/
   .first {
     display: table-cell;
