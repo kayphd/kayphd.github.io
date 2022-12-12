@@ -17,14 +17,14 @@
   }
   .first {
     /*display: table-cell;*/
-    width: 63%;
+    width: 61%;
     padding: 2%;
     float: left;
   }
 
   .second {
     /*display: table-cell;*/
-    width: 33%;
+    width: 31%;
     padding: 2%;
     float: right;
   }
