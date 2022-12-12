@@ -7,19 +7,21 @@
     display: table;
     width: 100%;
   }
-  .col {
+  /*.col {
     display: table-cell;
     padding: 10px;
-  }
+  }*/
   .first-column {
+    display: table-cell;
     width: 61%;
-    padding: 0 0 0 0;
+    padding: 10px;
     float: left;
 }
 
 .second-column {
+    display: table-cell;
     width: 28%;
-    padding: 0 0 0 0;
+    padding: 10px;
     float: right;
 }
 
