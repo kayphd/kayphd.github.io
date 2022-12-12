@@ -19,15 +19,15 @@
   .first {
     /*display: table-cell;*/
     width: 65%;
-    /*padding: 2%;
-    float: left;*/
+    /*padding: 2%;*/
+    float: left;
 }
 
 .second {
     /*display: table-cell;*/
     width: 35%;
-    /*padding: 2%;
-    float: right;*/
+    /*padding: 2%;*/
+    float: right;
 }
 /* Clear floats after the columns */
 .row:after {
