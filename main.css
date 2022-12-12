@@ -13,14 +13,14 @@
   }*/
   .first-column {
     display: table-cell;
-    width: 61%;
+    width: 65%;
     padding: 10px;
     float: left;
 }
 
 .second-column {
     display: table-cell;
-    width: 28%;
+    width: 35%;
     padding: 10px;
     float: right;
 }
