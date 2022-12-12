@@ -16,14 +16,14 @@
     }*/
   .first {
     /*display: table-cell;*/
-    width: 61%;
+    width: 63%;
     padding: 2%;
     float: left;
   }
 
   .second {
     /*display: table-cell;*/
-    width: 31%;
+    width: 33%;
     padding: 2%;
     float: right;
   }
