@@ -13,11 +13,11 @@
   }
 
   .column {
-    padding=2%;
+    padding: 2%;
     }
   .first {
     /*display: table-cell;*/
-    width: 62%;
+    width: 63%;
     float: left;
   }
 
