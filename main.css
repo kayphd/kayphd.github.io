@@ -65,7 +65,7 @@ li {
     --bg: var(--white);
     --fontColor: var(--black);
   }
-  .rcorners {
+  #rcorners {
    /* border-radius: 25px;*/
     background: var(--blue);
     padding:1%;
