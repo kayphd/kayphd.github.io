@@ -13,17 +13,17 @@
   }
 
   .column {
-    display: table-cell; 
+    
   }*/
   .first {
-    display: table-cell;
+    
     width: 50%;
     padding: 2%;
     float: left;
   }
 
   .second {
-    display: table-cell;
+    
     width: 33%;
     padding: 2%;
     float: right;
