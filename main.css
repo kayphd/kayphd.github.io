@@ -13,7 +13,7 @@
   }
 
   .column {
-    /*display: table-cell;*/
+    display: table-cell;
     
     padding: 2%;
   }*/
