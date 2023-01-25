@@ -24,7 +24,7 @@ function display_image(src, width) {
     document.body.appendChild(a);
 }
 
-
+// test
 // query string composes the product information on the nfc tag as follows: 
 // https://...index.html?product=..&prodname=..&prodid=..&cideo=https://... 
 
